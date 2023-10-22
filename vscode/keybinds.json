@@ -1,0 +1,42 @@
+// Place your key bindings in this file to override the defaultsauto[], precisa desse cara para poder remapear umas teclas
+[
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "editorTextFocus && vim.active && vim.use<C-k>"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && vim.active && vim.use<C-k>"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "!editorFocus"
+  },
+{
+    "key": "ctrl+z",
+    "command": "-undo"
+},
+{
+    "key": "ctrl+shift+z",
+    "command": "-redo"
+},
+{
+    "key": "ctrl+z",
+    "command": "cursorWordStartLeft",
+    "when": "editorTextFocus && vim.active && vim.use<C-k>"
+},
+{
+    "key": "ctrl+s",
+    "command": "cursorEnd",
+    "when": "editorTextFocus && vim.active && vim.use<C-k>"
+}
+]
+

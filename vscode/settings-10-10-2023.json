@@ -1,0 +1,220 @@
+{
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 12,
+    "editor.autoClosingQuotes": "never",
+    "vim.easymotion": true,
+    "vim.history": 500,
+    "vim.hlsearch": true,
+    "vim.leader": " ",
+    "vim.useSystemClipboard": true,
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine",
+                "extension.vim_escape"
+            ],
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "ctrl+a"
+            ],
+            "commands": [
+                "cursorHome"
+            ]
+        },
+        {
+            "before": [
+                "ctrl+d"
+            ],
+            "commands": [
+                "cursorEnd"
+            ]
+        },
+        {
+            "key": "ctrl+j",
+            "command": "selectNextSuggestion",
+            "when": "suggestWidgetVisible"
+        },
+        {
+            "key": "ctrl+k",
+            "command": "selectPrevSuggestion",
+            "when": "suggestwidgetvisible"
+        },
+        {
+            "key": "ctrl+j",
+            "command": "workbench.action.quickOpenSelectNext",
+            "when": "inQuickOpen"
+        },
+        {
+            "key": "ctrl+k",
+            "command": "workbench.action.quickOpenSelectPrevious",
+            "when": "inQuickOpen"
+        },
+        {
+            "key": "ctrl+j",
+            "command": "workbench.action.quickOpenSelectNext",
+            "when": "!editorFocus"
+        },
+        {
+            "key": "ctrl+k",
+            "command": "workbench.action.quickOpenSelectPrevious",
+            "when": "!editorFocus"
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "key": "ctrl+j",
+            "command": "workbench.action.quickOpenSelectNext",
+            "when": "inQuickOpen"
+        },
+        {
+            "key": "ctrl+k",
+            "command": "workbench.action.quickOpenSelectPrevious",
+            "when": "inQuickOpen"
+        },
+        {
+            "key": "ctrl+j",
+            "command": "selectNextSuggestion",
+            "when": "suggestWidgetVisible"
+        },
+        {
+            "key": "ctrl+k",
+            "command": "selectPrevSuggestion",
+            "when": "suggestWidgetVisible"
+        },
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "r",
+                "r"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "i"
+            ],
+            "commands": [
+                "editor.action.triggerParameterHints"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "n",
+                "c"
+            ],
+            "commands": [
+                "workbench.action.files.newUntitledFile"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "m"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t",
+                "o",
+            ],
+            "commands": [
+                "editor.action.showAllEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r",
+                "f"
+            ],
+            "commands": [
+                "fileutils.renameFile"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.closeAllEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.reopenClosedEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+    ]
+}
