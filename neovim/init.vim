@@ -1,6 +1,6 @@
 source ~/.config/nvim/plugins.vim
-source ~/.config/nvim/keymaps-n.vim
-
+source ~/.config/nvim/settings.vim
+source ~/.config/nvim/mapping.lua
 
 set encoding=utf-8
 set fileencoding=utf-8
