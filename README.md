@@ -25,4 +25,8 @@ No Visual Studio Code basicamente uso as mesmas configurações do intellij por�
 
 ### NeoVim
 
-Ainda não configurei direito o neovim então isso está em TODO: 
+No neovim algumas das configs sao baseadas no repositorio de VIM-Motions https://github.com/jdhao/nvim-config
+
+Nao tenho plano de deixar o vim como default editor por agora mas talvez em um
+futuro proximo 
+
