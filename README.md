@@ -20,6 +20,7 @@ No Visual Studio Code basicamente uso as mesmas configurações do intellij por�
 #### TODO
 - [] Fazer o breack line 
 - [] Inserir uma linha abaixo sem inserir o cursor 
+- [] Nao copiar para o clipboard <leader>d "_d
 
 
 ### NeoVim
