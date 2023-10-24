@@ -37,3 +37,9 @@ set autochdir
 set background=dark
 colorscheme gruvbox-baby
 
+hi Normal guibg=NONE ctermbg=NONE
+
+if has('termguicolors')
+  autocmd GUIEnter * set vb t_vb=
+endif 
+

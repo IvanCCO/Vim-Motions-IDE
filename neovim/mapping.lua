@@ -32,7 +32,9 @@ keymap.set("n", "<leader><cr>", "<cmd>noh<cr>",
   { desc = "Reload da configuracao" }
 )
 
-
+keymap.set("n", "<c-n>", "<cmd>NERDTreeToggle<cr>", 
+  { desc = "Reload da configuracao" }
+)
 
 -- Mapeia para o home e end funcionar como deveria (inicio da linha) 
 keymap.set("n", "j", "v:count == 0 ? 'gj' : 'j'", { expr = true })
