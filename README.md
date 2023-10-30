@@ -18,15 +18,8 @@ No intellij uso o plugin de vim junto com os keymaps do vscode. Isso faz com que
 No Visual Studio Code basicamente uso as mesmas configurações do intellij porém é necessário configurar dois arquivos para funcionar corretamente, o arquivo para remapear shortcuts já definidas e o arquivo para configurar o plugin do vim em SI.
 
 #### TODO
-- [] Fazer o breack line 
+- [] Fazer o break line 
 - [] Inserir uma linha abaixo sem inserir o cursor 
 - [] Nao copiar para o clipboard <leader>d "_d
 
-
-### NeoVim
-
-No neovim algumas das configs sao baseadas no repositorio de VIM-Motions https://github.com/jdhao/nvim-config
-
-Nao tenho plano de deixar o vim como default editor por agora mas talvez em um
-futuro proximo 
 
