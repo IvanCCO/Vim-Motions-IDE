@@ -131,6 +131,10 @@
     {
       "before": ["a"],
       "commands": ["editor.action.selectAll"]
+    },
+    {
+      "key": ["ctrl+d"],
+      "command": "editor.action.addSelectionToNextFindMatch",
     }
   ],
   "vim.insertModeKeyBindings": [
@@ -279,6 +283,11 @@
   ],
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+ "vim.handleKeys": {
+    "<C-d>": false,
+    "<C-s>": false,
+    "<C-z>": false
   }
 }
 
