@@ -11,6 +11,6 @@ The reason I choose to use Vim in these setups is because Vim motions open up po
 In IntelliJ, I use the Vim plugin along with the keymaps from VSCode. This provides a foundation based on the familiar VSCode keymaps while incorporating the actions I have configured.
 The Intellij plugin is configured like a normal vim config, with file .vimrc. 
 
-VSCode
+### VSCode
 
 In Visual Studio Code, I essentially use the same configurations as in IntelliJ. However, it is necessary to set up two files to ensure proper functionality: one for remapping predefined shortcuts and another for configuring the Vim plugin itself.
