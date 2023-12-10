@@ -1,129 +1,15 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Vim Dark Soft",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "security.workspace.trust.untrustedFiles": "open",
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "editor.guides.bracketPairs": true,
-  "python.analysis.extraPaths": ["C:\\Python310\\Lib\\site-packages"],
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "todohighlight.keywords": [
-    {
-      "text": "NOTE:",
-      "color": "#ffff",
-      "backgroundColor": "purple",
-      "overviewRulerColor": "grey"
-    },
-    {
-      "text": "IMPORTANT:",
-      "color": "#ffff",
-      "backgroundColor": "red",
-      "overviewRulerColor": "grey"
-    }
-  ],
-  "background.style": {
-    "content": "''",
-    "pointer-events": "none",
-    "position": "absolute",
-    "z-index": "99999",
-    "width": "100%",
-    "height": "100%",
-    "background-position": "100% 100%",
-    "background-repeat": "no-repeat",
-    "opacity": 0.6
-  },
-  "background.styles": [{}, {}, {}],
-  "background.loop": true,
-  "background.interval": 10,
-  "background.fullscreen": {
-    "image": [
-      "https://images2.alphacoders.com/111/1113005.jpg",
-      "https://wallpaperaccess.com/full/3430.jpg",
-      "https://i.pinimg.com/originals/39/74/6e/39746eea29ef15a08a05e9365c2d6be4.jpg",
-      "https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Anime-Backgrounds-HD-Free-download.jpg",
-      "https://i.pinimg.com/originals/fe/93/db/fe93dbc430eb4cc8d98c6c5bf17dd45f.png",
-      "https://wallpaperboat.com/wp-content/uploads/2020/06/03/42361/aesthetic-anime-13.jpg",
-      "https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-Wallpaper-Anime-Wallpaper-Bedroom.jpg",
-      "https://images4.alphacoders.com/100/1008904.png"
-    ],
-    "opacity": 0.94,
-    "size": "cover",
-    "interval": 300
-  },
-  "background.useFront": false,
-  "cSpell.language": "en,pt-BR",
-  "tabnine.experimentalAutoImports": true,
-  "sync.autoDownload": true,
-  "sync.autoUpload": true,
-  "sync.gist": "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",
-  "sync.quietSync": true,
-  "bracket-pair-colorizer-2.depreciation-notice": false,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
-    "editor.formatOnType": true
-  },
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.editor.enablePreview": false,
-  "editor.minimap.enabled": false,
-  "cSpell.userWords": [
-    "atualizacao",
-    "chakra",
-    "descricao",
-    "endereco",
-    "Formulario",
-    "grafico",
-    "Grafico",
-    "heigth",
-    "Proximas",
-    "saida",
-    "transacao",
-    "Transacao",
-    "transacoes"
-  ],
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.editorAssociations": {
-    "*.db": "default"
-  },
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 2,
-  "editor.accessibilitySupport": "off",
-  "editor.autoClosingBrackets": "always",
-  "editor.fontSize": 13,
-  "editor.fontWeight": "normal",
-  "window.zoomLevel": -1,
-  "vim.easymotion": true,
+  // ======================================================
+  //  VIM CONFIGURATION PROPERTIES 
+  // ======================================================
+  "vim.easymotion": true, 
   "vim.history": 500,
-  "vim.camelCaseMotion.enable": true,
   "vim.ignorecase": true,
   "vim.smartcase": true,
   "vim.hlsearch": true,
   "vim.leader": " ",
   "vim.useSystemClipboard": true,
   "vim.visualModeKeyBindings": [
-    {
-      "before": ["<leader>", "c"],
-      "commands": ["editor.action.commentLine", "extension.vim_escape"]
-    },
     {
       "before": ["\\", "c"],
       "commands": ["editor.action.commentLine"]
@@ -134,7 +20,11 @@
     },
     {
       "key": ["ctrl+d"],
-      "command": "editor.action.addSelectionToNextFindMatch",
+      "command": "editor.action.addSelectionToNextFindMatch"
+    },
+    {
+      "key": ["alt+j"],
+      "command": "editor.action.moveLinesDownAction"
     }
   ],
   "vim.insertModeKeyBindings": [
@@ -142,23 +32,25 @@
       "before": ["ctrl+a"],
       "commands": ["cursorHome"]
     },
+
     {
-      "before": ["ctrl+s"],
+      "before": ["ctrl+e"],
       "commands": ["cursorEnd"]
     },
     {
       "before": ["ctrl+z"],
-      "commands": ["cursorWordStartLeft"]
+      "commands": ["cursorLeft"]
     },
     {
       "before": ["ctrl+x"],
-      "commands": ["cursorWordStartRight"]
+      "commands": ["cursorRight"]
     },
     {
       "key": "ctrl+j",
       "command": "selectNextSuggestion",
       "when": "suggestWidgetVisible"
     },
+
     {
       "key": "ctrl+k",
       "command": "selectPrevSuggestion",
@@ -222,6 +114,11 @@
       "when": "suggestWidgetVisible"
     },
     {
+      "key": "ctrl+d",
+      "command": "editor.action.addSelectionToPreviousFindMatch",
+      "when": "suggestWidgetVisible"
+    },
+    {
       "key": "ctrl+k",
       "command": "selectPrevSuggestion",
       "when": "suggestWidgetVisible"
@@ -245,8 +142,21 @@
       ]
     },
     {
+      "before": ["<leader>", "p", "p"],
+      "commands": [
+        {
+          "command": "editor.action.addSelectionToNextFindMatch",
+          "when": "editorTextFocus"
+        },
+        {
+          "command": "editor.action.clipboardPasteAction",
+          "when": "editorTextFocus"
+        }
+      ]
+    },
+    {
       "before": ["<leader>", "n", "f"],
-      "commands": ["workbench.action.files.newUntitledFile"]
+      "commands": ["explorer.newFile"]
     },
     {
       "before": ["<leader>", "f", "m"],
@@ -269,25 +179,21 @@
       "commands": ["actions.find"]
     },
     {
-      "before": ["/"],
-      "commands": ["actions.find"]
-    },
-    {
       "before": ["<leader>", "/"],
       "commands": ["workbench.view.search"]
     },
     {
       "before": ["<leader>", "e"],
       "commands": ["editor.action.showHover"]
+    },
+    {
+      "key": ["alt+j"],
+      "command": "editor.action.moveLinesDownAction"
     }
   ],
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
- "vim.handleKeys": {
+  "vim.handleKeys": {
     "<C-d>": false,
     "<C-s>": false,
     "<C-z>": false
   }
 }
-
