@@ -1,25 +1,16 @@
 # Personal Vim
 
-Esse repositório tem como intuito colocar as configurações de vim que uso, para deixar todos meus ambientes sempre com a mesma configuração.
+This repository is intended to store the Vim configurations I use, ensuring that all my environments have a consistent setup.
 
+By using Vim, I can take advantage of its powerful motions and customize keymaps to streamline my coding experience. This approach allows me to maintain a consistent environment across different IDEs, enhancing my productivity and efficiency.
 
-O motivo do porque estou usando vim nessas ideas é porque o vim motions abre possibilidades para eu deixar minhas keymaps literalmente do jeito que eu quero, fazendo a ide se adaptar a mim e não ao contrário. 
+The reason I choose to use Vim in these setups is because Vim motions open up possibilities for me to customize my keymaps exactly the way I want, making the IDE adapt to me rather than the other way around.
 
-### Intellij
+### IntelliJ
 
-No intellij uso o plugin de vim junto com os keymaps do vscode. Isso faz com que tenha como base os keymaps do vscode que é o que estou acostumado mas com os actions que configurei.
+In IntelliJ, I use the Vim plugin along with the keymaps from VSCode. This provides a foundation based on the familiar VSCode keymaps while incorporating the actions I have configured.
+The Intellij plugin is configured like a normal vim config, with file .vimrc. 
 
+VSCode
 
-#### TODO
-- [] Inserir uma linha abaixo sem inserir o cursor 
-
-### VSCode
-
-No Visual Studio Code basicamente uso as mesmas configurações do intellij porém é necessário configurar dois arquivos para funcionar corretamente, o arquivo para remapear shortcuts já definidas e o arquivo para configurar o plugin do vim em SI.
-
-#### TODO
-- [] Fazer o break line 
-- [] Inserir uma linha abaixo sem inserir o cursor 
-- [] Nao copiar para o clipboard <leader>d "_d
-
-
+In Visual Studio Code, I essentially use the same configurations as in IntelliJ. However, it is necessary to set up two files to ensure proper functionality: one for remapping predefined shortcuts and another for configuring the Vim plugin itself.
