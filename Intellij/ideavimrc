@@ -110,6 +110,11 @@ nmap <leader>to :tabonly<cr>
 """"""""""""""""""""""""""""""
 " Useful mappings for managing tabs
 nnoremap <leader>l :action RecentFiles<CR>
+
+" Move line up and down using control
+nnorempap <C-j> : action MoveLineDown<CR> 
+nnorempap <C-j> : action MoveLineDown<CR> 
+
 nmap \b :action ToggleLineBreakPoint<CR>
 nmap \d :action Debug<CR>
 nmap \c :action CommentByLineComment<CR>
@@ -125,12 +130,18 @@ nmap <leader>rr :action RenameElement<CR>
 nmap <leader>nc :action NewClass<CR>
 nmap <leader>fm :action ReformatCode<CR>
 nmap <leader>ev :action EvaluateExpression<CR>
+
 """"""""""""""""""""""""""""""
 " => Visual mode related
 """"""""""""""""""""""""""""""
 vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 xnoremap <leader>d "_d
 xnoremap <leader>p "_dP
+
+" Move selected up and down
+xnorempap <C-j> : action MoveLineDown<CR> 
+xnorempap <C-j> : action MoveLineDown<CR> 
+
 """"""""""""""""""""""""""""""
 " =>  Actions comands - Visual mode
 """"""""""""""""""""""""""""""
