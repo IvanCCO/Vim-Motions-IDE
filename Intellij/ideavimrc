@@ -112,8 +112,9 @@ nmap <leader>to :tabonly<cr>
 nnoremap <leader>l :action RecentFiles<CR>
 
 " Move line up and down using control
-nnorempap <C-j> : action MoveLineDown<CR> 
-nnorempap <C-j> : action MoveLineDown<CR> 
+" TODO: See how to use command or option on mac
+nnorempap <A-j> : action MoveLineDown<CR> 
+nnorempap <A-j> : action MoveLineDown<CR> 
 
 nmap \b :action ToggleLineBreakPoint<CR>
 nmap \d :action Debug<CR>
@@ -139,8 +140,8 @@ xnoremap <leader>d "_d
 xnoremap <leader>p "_dP
 
 " Move selected up and down
-xnorempap <C-j> : action MoveLineDown<CR> 
-xnorempap <C-j> : action MoveLineDown<CR> 
+xnorempap <A-j> : action MoveLineDown<CR> 
+xnorempap <A-j> : action MoveLineDown<CR> 
 
 """"""""""""""""""""""""""""""
 " =>  Actions comands - Visual mode
