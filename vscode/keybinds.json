@@ -48,12 +48,12 @@
     "when": "editorTextFocus && vim.active && vim.use<C-k>"
   },
   {
-    "key": "alt+j",
+    "key": "ctrl+j",
     "command": "editor.action.moveLinesDownAction",
     "when": "editorTextFocus && vim.active"
   },
   {
-    "key": "alt+k",
+    "key": "ctrl+k",
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus && vim.active"
   },
