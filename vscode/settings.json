@@ -1,8 +1,8 @@
 {
-  // ======================================================
-  //  VIM CONFIGURATION PROPERTIES 
-  // ======================================================
-  "vim.easymotion": true, 
+  // ================================================
+  // ------- VIM CONFIG -----------------
+  // ================================================
+  "vim.easymotion": true,
   "vim.history": 500,
   "vim.ignorecase": true,
   "vim.smartcase": true,
@@ -25,6 +25,10 @@
     {
       "key": ["alt+j"],
       "command": "editor.action.moveLinesDownAction"
+    },
+    {
+      "before": ["<leader>", "f", "m"],
+      "commands": ["editor.action.formatSelection"]
     }
   ],
   "vim.insertModeKeyBindings": [
@@ -32,7 +36,6 @@
       "before": ["ctrl+a"],
       "commands": ["cursorHome"]
     },
-
     {
       "before": ["ctrl+e"],
       "commands": ["cursorEnd"]
@@ -50,7 +53,6 @@
       "command": "selectNextSuggestion",
       "when": "suggestWidgetVisible"
     },
-
     {
       "key": "ctrl+k",
       "command": "selectPrevSuggestion",
