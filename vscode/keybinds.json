@@ -57,4 +57,9 @@
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus && vim.active"
   },
+  {
+    "key": "ctrl+g",
+    "command": "lazygit.openLazygit",
+    "when": "vim.active"
+  }
 ]
