@@ -130,12 +130,8 @@
       "commands": ["editor.action.commentLine"]
     },
     {
-      "before": ["<leader>", "r", "r"],
+      "before": ["<leader>", "c", "r"],
       "commands": ["editor.action.rename"]
-    },
-    {
-      "before": ["<leader>", "p", "i"],
-      "commands": ["editor.action.triggerParameterHints"]
     },
     {
       "before": ["<leader>", "l"],
@@ -185,7 +181,7 @@
       "commands": ["workbench.view.search"]
     },
     {
-      "before": ["<leader>", "e"],
+      "before": ["<leader>", "c", "d"],
       "commands": ["editor.action.showHover"]
     },
     {
