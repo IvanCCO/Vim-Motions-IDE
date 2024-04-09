@@ -81,6 +81,22 @@
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
+      "before": [
+        "u"
+      ],
+      "commands": [
+        "undo"
+      ]
+    },
+    {
+      "before": [
+        "c-r"
+      ],
+      "commands": [
+        "redo"
+      ]
+    },
+    {
       "before": ["<leader>", "<CR>"],
       "commands": [":noh"]
     },
